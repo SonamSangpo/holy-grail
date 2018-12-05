@@ -1,0 +1,144 @@
+body {
+
+   background: linear-gradient(270deg, #506861, #27272f);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 19s ease infinite;
+-moz-animation: AnimationName 19s ease infinite;
+-o-animation: AnimationName 19s ease infinite;
+animation: AnimationName 19s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+}
+
+
+
+#nav-wrapper {
+    background-color: ;
+    /* for visualization purposes */
+    text-align: center;
+    width: 100vw;
+    position: absolute;
+    top: 70vh;
+
+
+
+}
+
+
+p,
+h1,
+h2,
+h3 {
+    color: lightgray;
+}
+
+
+#body-wrap {
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+
+
+#nav {
+    background-color: ;
+    /* for visualization purposes */
+    display: inline-block;
+    padding-left: 1%;
+    /* don't know why.... just working... hacked but lost hope otherwise! */
+    text-transform: uppercase;
+}
+
+#nav i {}
+
+#nav span {
+    padding-left: 20px;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    display: inline;
+    float: left;
+
+}
+
+#nav li a {
+    display: block;
+    padding: 26px 40px;
+    text-decoration: none;
+    color: #666;
+
+}
+
+
+
+@media all and (max-width: 839px) {
+
+
+    #nav li a {
+        display: block;
+        padding: 22px;
+        text-decoration: none;
+
+    }
+
+    #nav span {
+        padding-left: 7px;
+    }
+
+
+}
+
+@media all and (max-width: 500px) {
+
+
+    #nav span {
+        display: none
+    }
+
+    #nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #nav li {
+        display: inline;
+        float: left;
+
+    }
+
+    #nav li a {
+        display: block;
+        padding: 26px;
+        text-decoration: none;
+
+    }
+
+}

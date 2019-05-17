@@ -20,7 +20,7 @@ $('.js2').attr('src', (dpi>1) ? 'images/chanmedia-220.png' : 'images/chanmedia-1
 $('.js4').attr('src', (dpi>1) ? 'images/attik-screen-shot-480-2.jpg' : 'images/attik-screen-shot-240-1.jpg');}}};
 if(!window.HTMLPictureElement){$(window).resize(r);r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
-$('.s13').Stickyfill();
+$('.s14').Stickyfill();
 var wl = new woolite();
 wl.init();
 wl.addAnimation($('.js3')[0], "1.20s", "0.10s", 1, 100);
